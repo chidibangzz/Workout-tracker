@@ -52,7 +52,7 @@ app.get("/api/workouts", (req, res) => {
     })
 });
 
-app.post("/api/workouts/", (req, res) => {
+app.post("/api/workouts", (req, res) => {
     db.Workout.create({}).then(function (data) {
         res.json(data)
     })
