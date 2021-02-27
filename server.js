@@ -1,10 +1,10 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-const db = require("./models/");
+const db = require("./models");
 
 const path = require("path");
-const { exec } = require("child_process");
+
 
 const PORT = process.env.PORT || 3000
 
@@ -57,12 +57,7 @@ app.post("/api/workouts/", (req, res) => {
         res.json(data)
     })
 });
-//     //chart route
-//  app.get("/api/workouts/range", (req, res) => {
-//     db.Workout.find({}).then(function(data) {
-//        res.json(data) 
-//     })
-//  });
+
 
 app.put("/api/workouts/:id", (req, res) => {
     db.Workout.findByIdAndUpdate(req.params.id, {
