@@ -2,7 +2,7 @@
 Workout fitness
 Maximize your fitness by keeping track of your workouts with my workout app.
 ## Motivation
-Fitness and health is an extremly important factor in my life and in so many others. My goal was to help people keep record of when they worked out along with the particular excercise completed.
+Fitness and health is an extremely important factor in my life and in so many others. My goal was to help people keep record of when they worked out along with the particular exercise completed.
 ## Screenshots
  <img src="workut-dashboard.png" alt="workoutpic" width="500" height="200">
 
